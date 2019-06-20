@@ -43,7 +43,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |word|
+  array.each_with_index
     word.push "s"
   end
 end
